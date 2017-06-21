@@ -1,10 +1,3 @@
-$(document).ready(function(){
-
-$(".sector11").hover(function(){
-$('#pop1up1').css("display","block");
-},function(){
-$('#pop1up1').css("display","none");
-});
 
 $(".sector22").hover(function(){
 $('#pop1up1').css("display","block");
