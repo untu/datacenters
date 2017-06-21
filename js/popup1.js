@@ -59,4 +59,3 @@ $('#popup66').css("left",mx1+"px").css("top",my1+"px");
 $('#popup77').css("left",mx1+"px").css("top",my1+"px");
 $('#pop1up1').css("left",mx1+"px").css("top",my1+"px");
 });
-
