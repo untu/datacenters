@@ -1,0 +1,79 @@
+#tier1 {
+	text-align:center;
+	width:200px;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:14px;
+	position:absolute;
+  	font-weight: normal;
+	top:0;
+	left:0;
+}
+.tier {
+	border-bottom:2px solid #424242;
+	border-right:2px solid #424242;
+}
+.tier2 {
+	border-bottom:2px solid #424242;
+}
+#tier2 {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:14px;
+	left:0px;
+	top:490px;
+  	font-weight: normal;
+}
+#tier3 {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:14px;
+	left:850px;
+	top:0px;
+  	font-weight: normal;
+}
+#tier4 {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:14px;
+	left:0px;
+	top:250px;
+  	font-weight: normal;
+}
+#tier5 {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:14px;
+	left:850px;
+	top:490px;
+  	font-weight: normal;
+}
+#tier6 {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:14px;
+	left:850px;
+	top:250px;
+  	font-weight: normal;
+}
+
+.karttier {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+
+.karttier:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+}

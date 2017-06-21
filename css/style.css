@@ -1,0 +1,973 @@
+html, body {
+	margin:0;
+	padding:0;
+	color:#2E2E2E;
+}
+
+p{
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:15px;
+}
+p2{
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:15px;
+}
+p4{
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:21px;
+}
+p3{
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:16px;
+}
+#logo{
+	height:40px;
+	width:auto;
+	float:left;
+	margin:-10px 20px 0 30px;
+	position:relative;
+}
+#navBar {
+	list-style:none;
+        font-size:15px;
+}
+#box {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	position: fixed;
+        background-color:#2B2B2B;
+	height:85px;
+	width:100%;
+	z-index:10;
+	opacity:0.99;
+	box-shadow: 0 0 28px rgba(0,0,0,0.5);
+} 
+#navBar {
+	list-style:none;
+	margin:30px 10px 0 10px;
+
+}
+#navBar li {
+	position:relative;
+	display: inline;
+}
+#navBar a {
+	text-decoration:none;
+	padding:10px 10px;
+	color:white;
+}
+
+#navBar a:hover {
+	color:#A9A9A9;
+} 
+
+h1 {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:29px;
+	margin:32px;
+	color:#2E2E2E;
+}
+h0 {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:19px;
+	margin:0px;
+	color:#2E2E2E;
+}
+h01 {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:20px;
+	margin:0px;
+	color:#2E2E2E;
+}
+h3 {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:29px;
+	margin:32px;
+	color:#2E2E2E;
+}
+#ph {
+	position:relative;
+	left:4%;
+	top:200px;
+	width:430px;
+	height:380px;
+}
+
+#ph22 {
+	width:1050px;
+	margin: auto;
+        background-color:#FFFAFA;
+	position:relative;
+	height:auto;
+    	right: 0px;
+    	bottom:0px;
+    	left: 0px;
+	box-shadow:1px 0 7px 0px #3E3E3E , -1px 0 7px 0px #3E3E3E; 
+}
+#ph33 {
+	width:1050px;
+	margin: auto;
+	position:relative;
+    	right: 0;
+    	bottom:0;
+    	left: 0;
+}
+#photo {	
+	width:100%;
+	height:100%;
+}
+
+#photo1 {
+	position:absolute;
+	width:46px;
+	height:46px;
+	left:-8%;
+    	border-radius: 50%;
+	border:2px solid #2E2E2E;
+}
+#photo5 {
+	position:absolute;
+	width:45px;
+	height:45px;
+	top:-16%;
+	left:40%;
+    	border-radius: 50%;
+	border:2px solid #2E2E2E;
+}
+#photos5 {
+	position:absolute;
+	width:45px;
+	height:45px;
+	top:-18%;
+	left:40%;
+    	border-radius: 50%;
+	border:2px solid #2E2E2E;
+}
+#photo3 {
+	position:relative;
+	width:95px;
+	height:95px;
+	left:0%;
+    	border-radius: 50%;
+}
+#photo9 {
+	position:relative;
+	width:43px;
+	height:43px;
+	left:-5px;
+	margin-left:7px;
+	margin-top:7px;
+    	border-radius: 50%;
+}
+@keyframes scaale {
+    100% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+    }
+}
+#photo2 {	
+	position:absolute;
+	left:39%;
+	top:53%;	
+	width:110px;
+	height:110px;
+    	border-radius: 50%;
+	border:-2px solid #DCDCDC;
+}
+.data {
+	width:110px;
+	height:110px;
+	position:absolute;
+}
+#d1 {	
+
+	left:39%;
+	top:15%;	
+}
+#d11 {	
+	left:39%;
+	top:93%;	
+}
+#d22 {
+	left:6%;
+	top:74%;	
+}
+#d2 {	
+	left:6%;
+	top:33%;	
+}
+#d3 {	
+	right:4%;
+	top:33%;	
+}
+#d33 {	
+	right:4%;
+	top:74%;	
+}
+#line1 {	
+	position:absolute;
+	left:58%;
+	top:43%;	
+	width:120px;
+	height:120px;
+
+}
+#line11 {	
+	position:absolute;
+	left:56%;
+	top:68%;	
+	width:120px;
+	height:120px;
+	transform: scaleX(-1);
+}
+#line2 {	
+	position:absolute;
+	left:24%;
+	top:43%;	
+	width:138px;
+	height:138px;
+	transform: scaleY(-1);
+}
+#line22 {	
+	position:absolute;
+	left:24%;
+	top:63%;	
+	width:138px;
+	height:138px;
+	transform: scale(-1,-1);
+}
+#line3 {	
+	position:absolute;
+	left:38.7%;
+	top:30%;	
+	width:145px;
+	height:185px; 
+}
+#line33 {	
+	position:absolute;
+	left:38.7%;
+	top:60%;	
+	width:145px;
+	height:185px; 
+}
+
+#photo2 {
+	animation: scaale 1s ease-in-out infinite alternate;
+	@-webkit-animation: scaale 1s ease-in-out infinite alternate;
+}
+#opis {
+	top:-150px;
+	position:relative;
+	left:50%;
+	width:490px;
+}
+#opis2 {
+	top:350px;
+	position:relative;
+	width:100%;
+	height:300px;
+	text-align:center;
+	left:0%;
+}
+#opis9 {
+	top:100px;
+	position:relative;
+	width:100%;
+	height:550px;
+	text-align:center;
+	left:0%;
+}
+#opis6 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:10px;
+	left:0%;
+	height:800px;
+}
+#opis4 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-140px;
+	height:520px;
+	left:0%;
+}
+
+#opis8 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-100px;
+	height:700px;
+	left:0%;
+}
+#opistier {
+	padding:15px 15px;
+	left:0%;
+	top:0px;
+	right:14%;
+	position:relative;
+	width:700px;
+}
+#opisob {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-170px;
+	left:0%;
+	height:400px;
+}
+#opisten {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:0px;
+	left:0%;
+	height:520px;
+}
+#opiscen {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:30px;
+	left:0%;
+	height:800px;
+}
+#opist {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:130px;
+	left:0%;
+	height:970px;
+}
+
+#opist1 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-20px;
+	left:0%;
+	height:820px;
+}
+
+#opist11 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-250px;
+	left:0%;
+	height:420px;
+}
+#opist111 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:70px;
+	left:0%;
+	height:730px;
+}
+#opist12 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:30px;
+	left:0%;
+	height:730px;
+}
+#opistop {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:80px;
+	left:0%;
+	height:750px;
+}
+#opistop2 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:100px;
+	left:0%;
+	height:750px;
+}
+
+#opistopst {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-30px;
+	left:0%;
+	height:750px;
+}
+#o1pistopst {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-110px;
+	left:0%;
+	height:550px;
+}
+
+#statmosk {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-150px;
+	left:0%;
+	height:530px;
+}
+#opiscarmon {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-150px;
+	left:0%;
+	height:500px;
+}
+#opismon {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-80px;
+	left:0%;
+	height:750px;
+}
+#opistopline {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-50px;
+	left:0%;
+	height:650px;
+} 
+#opistopix {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-40px;
+	left:0%;
+	height:650px;
+} 
+#opistack {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-80px;
+	left:0%;
+	height:590px;
+} 
+#opistopline1 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-200px;
+	left:0%;
+	height:250px;
+} 
+#monpark {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-220px;
+	left:0%;
+	height:750px;
+
+} 
+#opistopline11 {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-180px;
+	left:0%;
+	height:660px;
+} 
+#opismon {
+	text-align:center;
+	position:relative;
+	width:100%;
+	top:-250px;
+	left:0%;
+	height:590px;
+} 
+#opisaniye {
+	margin:0;
+	width:100%;
+	height:auto;
+	background-color:#778899;
+	opacity:0.6;
+	position:relative;
+	-moz-transition: opacity 0.7s;
+	-o-transition: opacity 0.7s;
+	-webkit-transition: opacity 0.7s;
+}
+#opisaniye:hover {
+	opacity:0.9999;
+}
+
+h2 {
+	color:#2E2E2E;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:17px;
+	font-weight:normal;
+	margin:32px;
+	text-align:justify;
+}
+
+.container2 {
+    	width: 330px;
+    	height: 330px;
+    	border-radius: 50%;
+    	position: absolute;
+	background-color:white;
+    	overflow:hidden;
+	left:4%;
+	border:4px solid #4B4B4B;
+	z-index:6;
+}
+.container5 {
+    	width: 330px;
+    	height: 330px;
+    	border-radius: 50%;
+    	position:absolute;
+	background-color:#2E2E2E;
+    	overflow:hidden;
+	left:13%;
+	border:4px solid #4B4B4B;
+	z-index:9;
+}
+.containerob {
+	padding:32px 12px 32px 12px; 
+	border:2px solid #4B4B4B;
+	height:auto;
+}
+.opis3 {
+	top:0px;
+	left:90px;
+	position:relative;
+	width:700px;
+}
+#tbltier{
+	left:25%;
+	position:absolute;
+	top:20px;
+	width:650px;
+ 	border-collapse: collapse;
+	border:2px solid #424242;
+
+}
+#tbltier td {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:15px;
+	padding:8px 5px 8px 5px;
+	text-align:center;
+	vertical-align:top;
+}
+#tiertext {
+	top:-54px;
+	position:absolute;
+	left:46%;
+	font-size:22px;
+	white-space:pre;
+}
+#top {
+	top:10px;
+	left:12%;
+	position:relative;
+	width:800px; 	
+	border-collapse: collapse;
+	border:2px solid #424242;
+
+}
+#top2 {
+	left:68%;
+	position:absolute;
+	width:540px;
+	top:35px;
+}
+
+#top2 td {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:16px;
+	padding:5px 5px 5px 5px;
+	text-align:justify;
+	vertical-align:top;
+}
+#top3 {
+	top:30px;
+	left:68%;
+	position:relative;
+	width:540px;
+}
+#top3 td {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:16px;
+	padding:5px 5px 5px 5px;
+	text-align:justify;
+	vertical-align:top;
+}
+#top td {
+	text-align:center;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:15px;
+	padding:6px 5px 6px 5px;
+	vertical-align:top;
+}
+
+#usl1 {
+	position:absolute;
+	left:80px;
+	width:230px;
+
+}
+#uslu {
+	position:absolute;
+	left:20px;
+	top:110px;
+	width:230px;
+
+}
+#u1slu{
+	position:absolute;
+	left:20px;
+	top:110px;
+	width:300px;
+
+}
+#u12slu{
+	position:absolute;
+	left:55px;
+	top:110px;
+	width:230px;
+
+}
+#u122slu{
+	position:absolute;
+	left:45px;
+	top:110px;
+	width:260px;
+
+}
+#uslu1 {
+	position:absolute;
+	left:75px;
+	top:150px;
+	width:230px;
+
+}
+#usl2 {
+	position:absolute;
+	left:400px;
+	width:230px;
+}
+#usl22 {
+	position:absolute;
+	left:400px;
+	width:230px;
+	top:100px;
+}
+#usl3 {
+	position:absolute;
+	left:710px;
+	width:230px;
+}
+#usl4 {
+	position:absolute;
+	left:240px;
+	top:414px;
+	width:230px;
+}
+#usl5 {
+	position:absolute;
+	left:550px;
+	top:414px;
+	width:230px;
+}
+#usl44 {
+	position:absolute;
+	left:240px;
+	top:350px;
+	width:230px;
+}
+#usl55 {
+	position:absolute;
+	left:550px;
+	top:350px;
+	width:230px;
+}
+#usl6 {
+	position:absolute;
+	left:400px;
+	width:230px;
+	top:335px;
+}
+#opis5 {
+	top:150px;
+	left:516px;
+	position:relative;
+	width:500px;
+}
+.sector1 {
+    	overflow:hidden;
+    	width: 50%;
+   	height: 50%;
+    	position: absolute;
+    	left: 50%;
+    	top: 0px;
+   	transform-origin: left bottom;
+    	background: #a4c8d7;
+	z-index:5;
+}
+.sector11 {
+    	overflow:hidden;
+    	width: 50%;
+   	height: 50%;
+    	position: absolute;
+    	left: 50%;
+    	top: 0px;
+   	transform-origin: left bottom;
+    	background:#d4d3d3;
+	z-index:8;
+}
+.sector22 {
+    	overflow:hidden;
+    	width: 76%;
+   	height: 50%;
+    	position: absolute;
+    	left: 50%;
+    	top: 0%;
+    	transform-origin: left bottom;
+    	background:#d4d3d3;
+	transform:  skewY(16deg);
+	z-index:7;
+}
+.sector2 {
+    	overflow:hidden;
+    	width: 70%;
+   	height: 50%;
+    	position: absolute;
+    	left: 51%;
+    	top: 0%;
+    	transform-origin: left bottom;
+    	background:#a4c8d7;
+	transform:  skewY(3deg);
+	z-index:4;
+}
+.sector3 {
+    	overflow:hidden;
+    	width: 100%;
+   	height: 100%;
+    	position: absolute;
+    	left: 50%;
+    	top: 50%;
+    	background:#4d99ba;
+    	transform-origin: left top;
+	transform:  skew(9deg,-4deg);
+	z-index:3;
+}
+.sector33 {
+    	overflow:hidden;
+    	width: 100%;
+   	height: 100%;
+    	position: absolute;
+    	left: 50%;
+    	top: 50%;
+    	background:#708090;
+    	transform-origin: left top;
+	transform:  skew(-14deg,0deg);
+	z-index:6;
+}
+.sector4 {
+    	overflow:hidden;
+    	width: 100%;
+   	height:100%;
+    	position: absolute;
+    	left: 0%;
+    	top: 50%;
+    	background:#34495e;
+	transform: skewY(-2deg);
+	z-index:2;
+}
+.sector44 {
+    	overflow:hidden;
+    	width: 100%;
+   	height:100%;
+    	position: absolute;
+    	left: 0%;
+    	top: 50%;
+    	background:#4d5862;
+	transform: skewY(-22deg);
+	z-index:5;
+}
+.sector5 {
+    	overflow:hidden;
+    	width: 45%;
+   	height:30%;
+    	position: absolute;
+    	left: -15%;
+    	top: 0%;
+    	background:#2c3843;
+    	transform: matrix(1.32, 3, 1.8, 0, 0, 0);
+	z-index:1;
+}
+.sector55 {
+    	overflow:hidden;
+    	width: 100%;
+   	height:100%;
+    	position: absolute;
+    	left: 0%;
+    	top: 50%;
+    	background:#4D4E55;
+	transform: skewY(25deg);
+	z-index:4;
+}
+.sector6 {
+    	overflow:hidden;
+    	width: 100%;
+   	height:110%;
+    	position: absolute;
+    	left: 0%;
+    	top: -2%;
+    	background:#f08c68;
+	z-index:0;
+}
+.sector66 {
+    	overflow:hidden;
+    	width: 100%;
+   	height:100%;
+    	position: absolute;
+    	left: 0%;
+    	top: 50%;
+	transform: skewY(65deg);
+    	background:#f66c6c;
+	z-index:2;
+}
+.sector7 {
+    	overflow:hidden;
+    	width: 50%;
+   	height:50%;
+    	position: absolute;
+    	left: 0%;
+    	top: 0%;
+    	background:#cb4d4d;
+	z-index:1;
+}
+
+.container3 {
+
+    	width: 350px;
+    	position:relative;
+	background-color:none;
+	left:520px;
+	top:70px;
+	text-align:left;
+}
+.container4 {
+
+    	width: 330px;
+    	position:relative;
+	background-color:none;
+	left:-310px;
+	top:30px;
+	text-align:left;
+}
+#containerpodpis {
+	top:20px;
+	left:21%;
+    	width:440px;
+    	position: relative;	
+}
+#containerpodpis td {
+	width:100px;
+	padding:7px;
+}
+.round {
+	position:absolute;
+	width:25px;
+	height:25px;
+	left:-15%;
+	border-radius: 50%;
+}
+.round2 {
+	position:relative;
+	width:32px;
+	height:32px;
+	border-radius: 50%;
+}
+.round3 {
+	position:absolute;
+	width:8px;
+	height:8px;
+	border-radius: 50%;
+}
+.round4 {
+	position:absolute;
+	width:11px;
+	height:11px;
+	border-radius: 50%;
+}
+
+.b-popup{
+position:absolute;
+}
+
+.b-popup-content{
+	text-align:center;
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:12px;
+ 	min-width:80px;
+ 	max-width:125px;
+    	height: auto;
+   	padding:8px 7px 8px 7px;
+   	background-color:white;
+
+ 	z-index:9;
+	position:absolute;
+	display:none;
+	box-shadow: 1px 1px 6px #2E2E2E;
+}
+#opiskarta {
+	left:10%;
+	position:absolute;
+	top:20px;
+	width:870px;
+}
+#karta {
+	position:relative;
+	width:870px;
+	height:auto;
+	left:2px;
+	top:114px;
+}
+.sankt {
+	left:102px;
+	top:358px;
+	position:absolute;
+	z-index:6;
+	white-space:pre;
+
+}
+.sankt p {
+	color:#2E2E2E;
+	font-size:14px;
+}
+
+.moskva {
+	left:90px;
+	top:419px;
+	position:absolute;
+	z-index:7;
+	white-space:pre;
+}
+.moskva p {
+	font-size:15px;
+	color:#2E2E2E;
+}
+h22 {
+	font-family:"Century Gothic",Tahoma,Helvetica;
+	font-size:16px;
+	padding:8px 5px 8px 5px;
+	text-align:center;
+	vertical-align:top;
+}
+
